@@ -261,6 +261,11 @@ body{
   height:55vh;
 }
 
+.service .row:hover{
+  transform: translateX(2rem);
+  transition-duration: .5s;
+}
+
 .service .row .content{
   text-align: left;
   padding:0 3rem;
