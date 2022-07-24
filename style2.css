@@ -184,6 +184,10 @@ img:hover {
     font-size: 2.5rem;
 }
 
+.tick{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
 
 span {
     color: var(--color-primary);
