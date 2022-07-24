@@ -7,7 +7,15 @@
     --color-success: #4bb544;
 }
 
-
+.login-t{
+    background-image: url('images/home-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 1rem;
+  position: relative;
+  overflow: hidden !important;
+  height: 100vh;
+}
 
 
 .login_container{
