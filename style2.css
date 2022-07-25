@@ -273,7 +273,7 @@ span {
     .wave{
         display: none;
     }
-    
+   
     .aboutme {
         cursor: pointer;
         width: 77%;
@@ -293,11 +293,13 @@ span {
 }
 
 @media screen and (max-width: 400px) {
+    
     .login-content{
         max-width: 300px;
     }
 
 }
+
 
 @media screen and (max-height: 550px) {
         .login-t{
