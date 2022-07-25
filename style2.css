@@ -197,9 +197,7 @@ span {
 @media only screen and (max-width: 900px) {
     
 
-    .wave {
-        background-image: url('img/wave1.svg');
-    }
+    
 
     .aboutme {
         cursor: pointer;
@@ -277,3 +275,25 @@ span {
         width: 30%;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .login-t {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .login_container{
+        max-width: 308px;
+        margin-bottom: 2rem;
+    }
+
+    .form__button{
+        margin: 5px;
+    }
+    .my-3{
+        margin-bottom: -8px;
+    }
+
+}
+
