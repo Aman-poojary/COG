@@ -215,9 +215,7 @@ span {
         margin-top: 20rem;
         margin-bottom: 1rem;
     }
-    .login-t{
-        height: fit-content;
-    }
+    
     .wave{
         display: none;
     }
@@ -244,9 +242,7 @@ span {
     .img {
         display: none;
     }
-    .login-t{
-        height: fit-content;
-    }
+    
     .wave{
         display: none;
     }
@@ -277,9 +273,7 @@ span {
     .wave{
         display: none;
     }
-    .login-t{
-        height: fit-content;
-    }
+    
     .aboutme {
         cursor: pointer;
         width: 77%;
@@ -299,11 +293,14 @@ span {
 }
 
 @media screen and (max-width: 400px) {
-    .login-t{
-        height: fit-content;
-    }
     .login-content{
         max-width: 300px;
     }
 
+}
+
+@media screen and (max-height: 550px) {
+        .login-t{
+            height: fit-content;
+        }
 }
